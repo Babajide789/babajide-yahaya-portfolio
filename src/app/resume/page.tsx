@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from "react-icons/fa";
-import { SiNextdotjs, SiShadcnui, SiTailwindcss } from "react-icons/si";
+import { SiNextdotjs, SiReactquery, SiRedux, SiShadcnui, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { useState } from "react";
 
 const about = {
@@ -98,7 +98,10 @@ const skills = {
     { icon: <FaJs />, name: "JavaScript" },
     { icon: <FaReact />, name: "React.js" },
     { icon: <SiNextdotjs />, name: "Next.js" },
+    { icon: <SiTypescript />, name: "TypeScript" },
     { icon: <SiTailwindcss />, name: "Tailwind CSS" },
+    { icon: <SiReactquery />, name: "React Query" },
+    { icon: <SiRedux />, name: "Redux" },
     { icon: <FaFigma />, name: "Figma" },
     { icon: <SiShadcnui />, name: "ShadCN" },
 

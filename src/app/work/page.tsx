@@ -35,31 +35,42 @@ const projects = [
   {
     num: "02",
     category: "Frontend",
-    title: "TinyURL Project",
+    title: "Estate Hub Web App",
     description:
-      "A URL shortening application using TinyURL API with clean UI, caching, and responsive design.",
-    stack: [{ name: "React" }, { name: "TailwindCSS" }, { name: "REST API" }],
-    image: "/projects/shortly.png",
-    live: "https://url-shortener-land-ingpage.netlify.app",
-    github: "https://github.com/Babajide789/URL-shortener",
+      "A modern real estate web app featuring dynamic property listings, responsive layouts, and clean UI built with React and Tailwind CSS, powered by REST APIs for real-time data rendering.",
+    stack: [{ name: "Next.js" }, { name: "TailwindCSS" }, { name: "REST API" }],
+    image: "/projects/estatehub.png",
+    live: "https://estate-hub-web-app.vercel.app/",
+    github: "https://github.com/Babajide789/estate-hub-webApp",
   },
   {
     num: "03",
     category: "Frontend",
-    title: "Canvas Lancer",
+    title: "SGM Meats Website",
     description:
-      "A modern freelancer landing page concept showcasing animations, CTA sections, and a professional layout.",
+      "A modern business website for a meat distribution brand, built with Next.js and Tailwind CSS. The platform features responsive layouts, reusable components, SEO-friendly structure, and secure online payments integrated via Stripe, optimized for performance and deployed on Vercel.",
     stack: [
       { name: "Next.js" },
       { name: "TailwindCSS" },
-      { name: "Framer Motion" },
+      { name: "Stripe API" },
     ],
-    image: "/projects/canvaslancer.png",
-    live: "https://canvaslancer.vercel.app",
-    github: "https://github.com/Babajide789/canvas-lancer",
+    image: "/projects/SGMmeat.png",
+    live: "https://sgm-meats.vercel.app/",
+    github: "https://github.com/Babajide789/SGM-Meats",
   },
   {
     num: "04",
+    category: "Frontend",
+    title: "Pronov Website",
+    description:
+      "A modern corporate website built with Next.js and Tailwind CSS, featuring interactive sections, smooth UI transitions, and thoughtfully designed layouts aligned with UI/UX best practices. The project emphasizes responsive design, modular components, and scalable frontend architecture.",
+    stack: [{ name: "Next.js" }, { name: "TailwindCSS" }, { name: "JavaScript" }],
+    image: "/projects/pronov.png",
+    live: "https://pronov-website.vercel.app/",
+    github: "https://github.com/Babajide789/pronov-website",
+  },
+  {
+    num: "05",
     category: "Frontend",
     title: "EasyBank Landing Page",
     description:
@@ -69,17 +80,7 @@ const projects = [
     live: "https://page-easy-bank.netlify.app",
     github: "https://github.com/Babajide789/easy-bank-landing-page",
   },
-  {
-    num: "05",
-    category: "Frontend",
-    title: "Bookmark Landing Page",
-    description:
-      "A bookmark manager landing page with FAQ accordion, responsive layout, and modern UI styling.",
-    stack: [{ name: "React" }, { name: "CSS" }, { name: "JavaScript" }],
-    image: "/projects/bookmark.png",
-    live: "https://bookmarkandingpage.netlify.app/",
-    github: "https://github.com/yourusername/bookmark-landing",
-  },
+  
 ]
 
 export default function Work() {
